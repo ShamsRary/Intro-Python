@@ -1,0 +1,31 @@
+name = input("Type a name")
+print("Hello %s!" %name)
+
+
+age = input("Type your age")
+print("Hello %s! You are %s! years old." % (name, age))
+
+year = input("Type the year")
+sent ="Happy New Year {}! It is {}!".format(name, year)
+print(sent)
+sent =f"Happy New Year {name.lower()}! It is {year}"
+print(sent)
+
+print("Ready for a story", name + "!!!")
+number = input("Type a number")
+noun = input("Type a noun")
+animal = input("Type a animal")
+food = input("Type a food")
+location = input("Type a location")
+
+original_story = f"""
+Once upon a time, deep in an ancient high school, there lived a {animal}.
+This {animal} liked to eat {food}, but the high school had very little {food} to offer.
+One day, an explorer found the {animal} and discovered it liked {food}.
+The explorer took the {animal} back to {location}, where it could eat as much {food} as it wanted.
+However, the {animal} became homesick, so the explorer brought it back to the high school, leaving a large supply of {food}.
+
+The End
+"""
+
+print(original_story)
